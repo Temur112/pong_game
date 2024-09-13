@@ -1,0 +1,4 @@
+repository "Pong game@Temur112@cloud"
+  path "/"
+    br "/main"
+    co "/main"
