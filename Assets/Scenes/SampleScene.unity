@@ -1050,6 +1050,7 @@ MonoBehaviour:
   speed: 10
   isPlayerA: 1
   circle: {fileID: 2072198558}
+  isAi: 0
 --- !u!50 &778263184
 Rigidbody2D:
   serializedVersion: 4
@@ -1238,8 +1239,8 @@ Transform:
   m_GameObject: {fileID: 1285293924}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 12.953021, y: 0.081226, z: 0.03189047}
-  m_LocalScale: {x: 1, y: 0.028234852, z: 1}
+  m_LocalPosition: {x: 12.953021, y: -0.6514, z: 0.03189047}
+  m_LocalScale: {x: 1, y: 0.27797598, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1764397171}
@@ -1259,6 +1260,7 @@ MonoBehaviour:
   speed: 10
   isPlayerA: 0
   circle: {fileID: 2072198558}
+  isAi: 1
 --- !u!61 &1285293927
 BoxCollider2D:
   m_ObjectHideFlags: 0
